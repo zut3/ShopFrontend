@@ -1,0 +1,43 @@
+.wrapper {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    height: 38px;
+    width: 108px;
+    margin: 2px;
+    background-color: #fff;
+    font-size: 1em;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;    
+}
+
+
+.btn-primary {
+    background-color: rgb(8, 91, 185);
+    color: #fff;
+    border-radius: 13px;
+    border: 0 solid transparent;
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+    border: 2px solid rgba(8, 91, 185, 0.7);
+    border-radius: 13px;
+}   
+
+
+
+.btn-outline-primary:hover {
+    border: 4px solid rgba(8, 91, 185, 0.7);
+}
+
+
