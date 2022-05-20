@@ -2,7 +2,7 @@ import ListOfCards from "../components/ListOfCards";
 import {useEffect, useState} from 'react';
 import axios from "axios";
 
-const backendURL = 'http://127.0.0.1:8000/api/';
+const backendURL = 'http://zut3Student.pythonanywhere.com/api/';
 
 function MainPage() {
     const [ products, setProducts ] =  useState([]);
